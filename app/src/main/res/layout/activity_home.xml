@@ -18,7 +18,5 @@
         app:menu="@menu/bottomnavmenu"
         android:background="#6C1C32"
         android:paddingVertical="3dp"
-
-
         />
 </LinearLayout>
