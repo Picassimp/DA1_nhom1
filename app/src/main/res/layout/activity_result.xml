@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tv_chinhxac"
+        android:id="@+id/tv_resultactivity_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="120dp"
@@ -35,7 +35,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/img_failled"
+        android:id="@+id/img_resultactivity_image"
         android:layout_width="220dp"
         android:layout_height="260dp"
         android:layout_marginTop="200dp"
@@ -46,7 +46,7 @@
         app:srcCompat="@drawable/ic_successful" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tv_resultactivity_reward"
         android:layout_width="330dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="496dp"
@@ -58,7 +58,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     <ImageView
-        android:id="@+id/img_cancel"
+        android:id="@+id/img_resultactivity_cancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -69,7 +69,7 @@
         app:srcCompat="@drawable/ic_cancel" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_resultactivity_home"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:background="@color/pink"

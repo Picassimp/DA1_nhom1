@@ -7,11 +7,15 @@
         <entry key="..\:/ProjectMobile/Android/DA1/app/src/main/res/drawable/border.xml" value="0.156" />
         <entry key="..\:/ProjectMobile/Android/DA1/app/src/main/res/drawable/gradientbackground.xml" value="0.156" />
         <entry key="..\:/ProjectMobile/Android/DA1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.156" />
+        <entry key="..\:/ProjectMobile/Android/DA1/app/src/main/res/drawable/transparent_background.xml" value="0.156" />
         <entry key="..\:/ProjectMobile/Android/DA1/app/src/main/res/layout/activity_home.xml" value="0.22530996152201796" />
         <entry key="..\:/ProjectMobile/Android/DA1/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/ProjectMobile/Android/DA1/app/src/main/res/layout/background.xml" value="0.21376656690893545" />
         <entry key="..\:/ProjectMobile/Android/DA1/app/src/main/res/layout/border.xml" value="0.21376656690893545" />
+        <entry key="..\:/ProjectMobile/Android/DA1/app/src/main/res/layout/fragment_failled.xml" value="0.22530996152201796" />
         <entry key="..\:/ProjectMobile/Android/DA1/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/ProjectMobile/Android/DA1/app/src/main/res/layout/fragment_quiz.xml" value="0.264" />
+        <entry key="..\:/ProjectMobile/Android/DA1/app/src/main/res/layout/fragment_successfull.xml" value="0.22530996152201796" />
         <entry key="..\:/ProjectMobile/Android/DA1/app/src/main/res/layout/home_fragment_item_detail.xml" value="0.2" />
         <entry key="..\:/ProjectMobile/Android/DA1/app/src/main/res/layout/searchbar_background.xml" value="0.21376656690893545" />
         <entry key="..\:/ProjectMobile/Android/DA1/app/src/main/res/layout/transparent_background.xml" value="0.21376656690893545" />
