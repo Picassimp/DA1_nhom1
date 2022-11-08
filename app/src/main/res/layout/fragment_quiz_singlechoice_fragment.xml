@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.Fragments.quiz_singlechoice_fragment"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#00000000">
+
+    <TextView
+        android:id="@+id/tv_quizfrag_questiontitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which of the following are the basic categories of chemical signaling found in multicellular organisms?
+<SAMPLE>"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                >
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:text="A."
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:gravity="center_vertical"
+                    />
+                <TextView
+                    android:id="@+id/tv_single_answer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="answer 1"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:paddingHorizontal="10dp"
+                    android:gravity="center_vertical"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#6A6A6A"
+                android:layout_marginTop="10dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                >
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:text="B."
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:gravity="center_vertical"
+                    />
+                <TextView
+                    android:id="@+id/tv_single_answer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="answer 2"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:paddingHorizontal="10dp"
+                    android:gravity="center_vertical"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#6A6A6A"
+                android:layout_marginTop="10dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                >
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:text="C."
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:gravity="center_vertical"
+                    />
+                <TextView
+                    android:id="@+id/tv_single_answer3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="answer 3"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:paddingHorizontal="10dp"
+                    android:gravity="center_vertical"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#6A6A6A"
+                android:layout_marginTop="10dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                >
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:text="D."
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:gravity="center_vertical"
+                    />
+                <TextView
+                    android:id="@+id/tv_single_answer4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="answer 4"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:paddingHorizontal="10dp"
+                    android:gravity="center_vertical"
+                    />
+            </LinearLayout>
+
+
+
+
+</LinearLayout>
