@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="#00FFFFFF"
+
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv_quizCreationFragment_position"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:text="Câu 1"/>
+        <ImageView
+            android:id="@+id/img_quizCreationFragment_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete"
+            android:layout_weight="0"/>
+    </LinearLayout>
+     <TextView
+         android:id="@+id/tv_quizCreationFragment_title"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:textSize="30sp"
+         android:textColor="@color/white"
+         android:text="Which of the following are the basic categories of ..."/>
+</LinearLayout>

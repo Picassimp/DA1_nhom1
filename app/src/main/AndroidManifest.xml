@@ -14,11 +14,26 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".DoingQuizActivity"
-            android:exported="false">
+            android:name=".Views.QuizCreationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.DoingQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.HomeActivity"
+            android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".Views.LoginActivity"

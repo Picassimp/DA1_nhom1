@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.QuizCreationFragment"
+    android:background="@drawable/gradientbackground"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_quizCreationFragment_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginVertical="15dp"
+        android:textSize="20sp"
+        android:text="Trở lại"/>
+
+
+        <TextView
+            android:id="@+id/tv_quizCreationFragment_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="5dp"
+            android:paddingLeft="20dp"
+            android:hint="Môn học"
+            android:textColorHint="#B3FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:background="@drawable/subject_time_background"/>
+
+        <TextView
+            android:id="@+id/tv_quizCreationFragment_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:hint="Thời gian"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="5dp"
+            android:textColorHint="#B3FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:background="@drawable/subject_time_background"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/lv_quizCreationFragment_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp" />
+        <ImageView
+            android:id="@+id/img_quizCreationFragment_add"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end||bottom"
+            android:layout_margin="30dp"
+            app:fabCustomSize="60dp"
+            android:src="@drawable/add"
+            android:background="@drawable/add_border"
+            />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_quizCreationFragment_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="15dp"
+        android:text="TẠO"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:background="#FF2983"
+        android:gravity="center"
+        android:layout_weight="0"/>
+</LinearLayout>
