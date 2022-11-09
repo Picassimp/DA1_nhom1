@@ -27,17 +27,7 @@
         android:textSize="30sp"
         android:gravity="start"
         android:layout_weight="1"/>
-    <Switch
-        android:id="@+id/switch_questionCreationFragment_multiple"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginVertical="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        android:gravity="center"
-        android:background="@drawable/multiple_swich_background"
-        android:text="Nhiều hơn một câu trả lời "/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
