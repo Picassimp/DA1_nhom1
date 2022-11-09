@@ -48,6 +48,8 @@
             android:id="@+id/cb_multi_answer1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+
             />
     </LinearLayout>
     <View
@@ -86,6 +88,8 @@
             android:id="@+id/cb_multi_answer2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+
             />
     </LinearLayout>
     <View
@@ -124,6 +128,8 @@
             android:id="@+id/cb_multi_answer3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+
             />
     </LinearLayout>
     <View
@@ -163,6 +169,7 @@
             android:id="@+id/cb_multi_answer4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
             />
     </LinearLayout>
 
