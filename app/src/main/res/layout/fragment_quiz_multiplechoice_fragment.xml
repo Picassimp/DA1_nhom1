@@ -12,11 +12,9 @@
         android:id="@+id/tv_quizfrag_questiontitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Which of the following are the basic categories of chemical signaling found in multicellular organisms?
-<SAMPLE>"
+        android:text="Which of the following are the basic categories of chemical signaling found in multicellular organisms?"
         android:textColor="@color/white"
-        android:textSize="28dp"
-        />
+        android:textSize="28dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
