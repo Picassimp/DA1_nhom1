@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_historyfrag_name_quiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Tên Quiz: "
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/tv_historyfrag_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="Thời gian: "/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_historyfrag_mark"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:text="10/10" />
+</LinearLayout>

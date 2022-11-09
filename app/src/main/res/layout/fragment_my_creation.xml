@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbackground"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".Fragments.MyCreationFragment">
+
+    <ListView
+        android:id="@+id/lv_my_creationfrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btn_mycreationfrag_create"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="0"
+        android:layout_marginBottom="20dp"
+        android:background="@color/pink"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="Create" />
+
+
+</LinearLayout>
