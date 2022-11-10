@@ -29,7 +29,9 @@
             android:textColorHint="#B3FFFFFF"
             android:textColor="#FFFFFF"
             android:textSize="28sp"
-            android:background="@drawable/subject_time_background"/>
+            android:background="@drawable/subject_time_background"
+
+            android:onClick="chooseSubject"/>
 
         <TextView
             android:id="@+id/tv_quizCreationFragment_time"
