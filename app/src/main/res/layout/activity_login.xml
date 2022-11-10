@@ -40,22 +40,17 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
-            <TextView
-                android:id="@+id/tv_facebookLogin"
-                android:layout_width="250dp"
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/login_fb"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="36dp"
-
-                android:background="@drawable/border"
-                android:gravity="center"
-                android:text="Login with facebook"
-                android:textColor="@color/black"
-
-                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="572dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintHorizontal_bias="0.539"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tv_googleLogin" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/imageView3"
