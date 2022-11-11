@@ -20,7 +20,7 @@
         android:layout_height="60dp"
         android:layout_weight="0"
         android:layout_marginBottom="20dp"
-        android:background="@color/pink"
+        android:backgroundTint="@color/pink"
         android:textColor="@color/white"
         android:textSize="30dp"
         android:text="Tạo" />

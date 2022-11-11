@@ -44,7 +44,9 @@
             android:textColorHint="#B3FFFFFF"
             android:textColor="#FFFFFF"
             android:textSize="28sp"
-            android:background="@drawable/subject_time_background"/>
+            android:background="@drawable/subject_time_background"
+            android:onClick="chooseDuration"
+            />
 
     <FrameLayout
         android:layout_width="match_parent"
