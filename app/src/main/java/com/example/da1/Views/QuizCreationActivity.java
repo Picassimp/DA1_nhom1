@@ -148,6 +148,7 @@ public class QuizCreationActivity extends AppCompatActivity {
             }
         }
         return timer;
+
     }
 
 }
