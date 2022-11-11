@@ -6,13 +6,10 @@ import androidx.fragment.app.FragmentManager;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.MenuItem;
-import android.widget.FrameLayout;
 
 import com.example.da1.Fragments.HomeFragment;
 import com.example.da1.Fragments.MyQuizFragment;
-import com.example.da1.Fragments.ProfileFragment;
 import com.example.da1.Model.Subject;
 import com.example.da1.R;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -62,11 +59,7 @@ public class HomeActivity extends AppCompatActivity {
                                 .commit();
                         break;
                     }
-                    case R.id.Settings:{
-                        fragmentManager.beginTransaction().replace(R.id.fragment_container, new ProfileFragment())
-                                .commit();
-                        break;
-                    }
+
                 }
                 return true;
             }
