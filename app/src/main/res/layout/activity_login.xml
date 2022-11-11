@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Adapter.test_chucnang_loginfb.loginfb">
+    tools:context=".test_chucnang_loginfb.loginfb">
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

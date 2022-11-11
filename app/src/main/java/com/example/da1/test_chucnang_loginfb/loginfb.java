@@ -1,4 +1,4 @@
-package com.example.da1.Adapter.test_chucnang_loginfb;
+package com.example.da1.test_chucnang_loginfb;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
