@@ -20,15 +20,11 @@ import com.example.da1.Views.QuizCreationActivity;
 public class QuizCreationFragment extends Fragment {
 
     Quiz quiz;
-    String displayTime;
     public QuizCreationFragment(Quiz quiz) {
         // Required empty public constructor
         this.quiz = quiz;
     }
-//    public QuizCreationFragment(Quiz quiz, String displayTime){
-//        this.quiz = quiz;
-//        this.displayTime = displayTime;
-//    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -48,13 +44,5 @@ public class QuizCreationFragment extends Fragment {
         });
         TextView tv_quizCreationFragment_subject = view.findViewById(R.id.tv_quizCreationFragment_subject);
         tv_quizCreationFragment_subject.setText(quiz.getSubjectName());
-
-        if (quiz.getQuizTime()!= null){
-            String display = ((QuizCreationActivity)getActivity()).timerChanger(quiz.getQuizTime());
-
-            TextView tv_quizCreationFragment_time = view.findViewById(R.id.tv_quizCreationFragment_time);
-            tv_quizCreationFragment_time.setText(display);
-        }
-
     }
 }

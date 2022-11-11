@@ -17,9 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:menu="@menu/bottomnavmenu"
-        android:background="#A22D4E"
+        android:background="#6C1C32"
         android:paddingVertical="3dp"
-        app:itemIconTint="@drawable/selector"
-        app:itemTextColor="@color/white"
         />
 </LinearLayout>
