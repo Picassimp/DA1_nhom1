@@ -12,15 +12,18 @@
         android:id="@+id/Store"
         android:title="Store"
         android:icon="@drawable/ic_store"
+        android:iconTint="@color/white"
         />
     <item
         android:id="@+id/myQuiz"
         android:title="My Quiz"
         android:icon="@drawable/ic_myquiz"
+        android:iconTint="@color/white"
         />
     <item
         android:id="@+id/Settings"
         android:title="Settings"
         android:icon="@drawable/ic_settings"
+
         />
 </menu>
